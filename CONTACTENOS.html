@@ -1,0 +1,252 @@
+<HTML> 	  	 
+ <HEAD> 	 
+  <TITLE>CONTACTENOS</TITLE>
+
+<style type="text/css">
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: BLACK;
+    background-color: WHITE;
+    border-radius: 6px;
+    border: 2px solid red;
+  }
+  .boton_personalizado:hover{
+    color: #WHITE;
+    background-color: #BLACK;
+  }
+
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+  background-color: black; 
+}
+
+
+.contact_form{  
+    width: 460px; 
+  height: auto;
+  margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+    float: center;  
+}
+
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;     
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: black; 
+    border-color: black; 
+    border-style: solid; 
+    border-radius: 10px;    
+    width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+    color: #fff; 
+}
+
+
+span{
+    color: red; 
+}
+
+
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+
+
+h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+}
+
+
+h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+
+
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid red;
+}
+
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid red;
+}
+</style>
+
+ </HEAD> 	 
+  <BODY  bgcolor="white">
+  <table  width="100%">
+       <tr>
+        <td bgcolor="white" WIDTH="10%"><IMG SRC="logo.JPEG" WIDTH=300 HEIGHT=125></td>
+        <td bgcolor="white"  ALIGN="CENTER"><font face="ginebra" size="9" color="#993300">CONTÁCTENOS</font></td>
+        </tr> 
+      </table>
+</BR>
+
+<a class="boton_personalizado" href="INDEX.html"><IMG SRC="HOME.PNG" WIDTH=42 HEIGHT=28 ALIGN="CENTER"></a>
+</BR></BR>
+
+<div class="contact_form">
+
+        <div class="formulario">            
+      <h1><font color="#660000">Formulario de contacto</font></h1>
+                <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+
+                    <form action="mail.php" method="post">
+                        
+                                <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre o el de tu empresa">
+                                </p>
+                            
+                                <p>
+                                    <label for="email" class="colocar_email">Email
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                </p>
+                        
+                                <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono/Celular
+                                    </label>
+                                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                </p>        
+                            
+                                <p>
+                                    <label for="website" class="colocar_website">Sitio web
+                                    </label>
+                                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                </p>        
+                            
+                                <p>
+                                    <label for="asunto" class="colocar_asunto">Asunto
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                </p>        
+                            
+                                <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>                     
+                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Haz tu consulta..."></textarea> 
+                                </p>                                    
+                            
+                                <button type="submit" name="enviar_formulario" id="enviar"><p><b>Enviar</b></p></button>
+
+                                <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                </p>                    
+                        
+                    </form>
+        </div>  
+    </div>
+
+<hr align="center" COLOR="#cc9900" size="1" width="100%"/>
+<table>
+       <tr>
+        <td ><font face="arial black"><a href="https://www.facebook.com/PromoDigital-108152271078626/"><IMG SRC="facebook.jpg" WIDTH="50%" HEIGHT="50%" ></a></font></td>
+        <td ><font face="arial black"><a href="https://api.whatsapp.com/send?phone=573134356380"><IMG SRC="whatsapp.png" WIDTH="60%" HEIGHT="60%"></a></font></td>
+        <td ><font face="arial black"><a href="https://www.instagram.com/promodigital2000"><IMG SRC="instagram.jpg" WIDTH="70%" HEIGHT="70%"></a></font></td>
+      </tr> 
+
+      <tr>
+        <td ><font face="arial black" color="white">PromoDigital</font></td>
+        <td ><font face="arial black" color="white">+57 3134356380</font></td>
+        <td ><font face="arial black" color="white">promoDigital2000</font></td>
+       </tr> 
+</table>
+
+<hr align="center" COLOR="#cc9900" size="1" width="100%"/>
+
+<table width="100%">
+<tr>	  	
+ <td><P><font face="ARIAL NARROW" color="white">Copyright PROMODIGITAL</font></P></td>
+ <td><P align="right"><font face="ARIAL NARROW" color="white">companypromodigital@gmail.com</font></P></td>
+</tr>
+</table>
+
+  	  	
+  </BODY> 	 
+</HTML> 	  	 

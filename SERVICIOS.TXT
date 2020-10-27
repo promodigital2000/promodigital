@@ -1,0 +1,63 @@
+<HTML> 	  	 
+ <HEAD> 	 
+  <TITLE>SERVICIOS</TITLE>
+
+<style type="text/css">
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: BLACK;
+    background-color: WHITE;
+    border-radius: 6px;
+    border: 2px solid #993300;
+  }
+  .boton_personalizado:hover{
+    color: #WHITE;
+    background-color: #BLACK;
+  }
+</style>
+
+ </HEAD> 	 
+  <BODY bgcolor="black" style="background-repeat: no-repeat"> 
+  <table  width="100%">
+       <tr>
+        <td bgcolor="white" WIDTH="10%"><IMG SRC="logo.JPEG" WIDTH=300 HEIGHT=125></td>
+        <td bgcolor="white" ALIGN="CENTER"><font face="ginebra" size="12" COLOR="#993300">SERVICIOS</font></td>
+        </tr> 
+      </table>	 
+</BR>
+<a class="boton_personalizado" href="INDEX.html"><IMG SRC="HOME.PNG" WIDTH=42 HEIGHT=28 ALIGN="CENTER"></a>
+</BR></BR>
+<img src="CALIDAD.GIF" width="100%">
+
+<div align="center"><img src="Nuestros Servicios2.png" width="100%"></div>
+</BR>
+<hr align="center" COLOR="#cc9900" size="1" width="100%"/>
+<table align="center">
+       <tr>
+        <td align="center"><font face="arial black"><a href="https://www.facebook.com/PromoDigital-108152271078626/"><IMG SRC="facebook.jpg" WIDTH="15%" HEIGHT="50%" ></a></font></td>
+        <td align="center"><font face="arial black"><a href="https://api.whatsapp.com/send?phone=573134356380"><IMG SRC="whatsapp.png" WIDTH="20%" HEIGHT="60%"></a></font></td>
+        <td align="center"><font face="arial black"><a href="https://www.instagram.com/promodigital2000"><IMG SRC="instagram.jpg" WIDTH="25%" HEIGHT="70%"></a></font></td>
+      </tr> 
+
+      <tr>
+        <td align="center"><font face="arial black" color="white" size="2">PromoDigital</font></td>
+        <td align="center"><font face="arial black" color="white" size="2">+57 3134356380</font></td>
+        <td align="center"><font face="arial black" color="white" size="2">promodigital2000</font></td>
+       </tr> 
+</table>
+<hr align="center" COLOR="#cc9900" size="1" width="100%"/>
+
+<table width="100%">
+<tr>	  	
+ <td><P><font face="ARIAL NARROW" color="white">Copyright PROMODIGITAL</font></P></td>
+ <td><P align="right"><font face="ARIAL NARROW" color="white">companypromodigital@gmail.com</font></P></td>
+</tr>
+</table>
+
+
+ 
+  	</BODY> 	 
+</HTML> 	  	 
